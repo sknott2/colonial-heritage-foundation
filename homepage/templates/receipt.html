@@ -1,0 +1,27 @@
+<%inherit file="base.htm" />
+<%block name="content">
+	<h1>Order Complete</h1>
+	<h3>Thank you for shopping with us. You will receive a confirmation email shortly</h3>
+	<p>Items you purchased:</p>
+	<table>
+		%if products:
+			% for product in products:
+				<tr>
+					<td>${product.name}</td>
+					<td>${product.current_price}</td>
+				</tr>
+			% endfor
+		%endif
+	</table>
+	<p>Items you rented:</p>
+	<table>
+		%if items:
+			% for item in items:
+				<tr>
+					<td>${item.name}</td>
+					<td>${item.standard_rental_price}</td>
+				</tr>
+			% endfor
+		%endif
+	</table>
+</%block>

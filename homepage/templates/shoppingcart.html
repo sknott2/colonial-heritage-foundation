@@ -1,0 +1,48 @@
+<%inherit file="base_ajax.htm"/>
+<%! import homepage.models as hmod %>!
+
+<%block name="content">
+
+
+% if cart_product_size > 0:
+	<h2>Products</h2>
+% endif
+	% for product in cart_products:
+		<div class="item_div"> 
+			<div class="text">
+				<div id="name">${ product[0] }</div></br>
+				<div id="quantity" class="text-right">${product[1]}</div>
+			</div>
+
+			<div>
+				<a id="del" href="/homepage/shoppingcart.delete/${product[0].id}" class="btn-xs btn btn-primary">Delete</a>
+			</div>
+		<div>
+	%endfor
+% if cart_item_size > 0:
+	<h2>Rental Items</h2>
+% endif
+	% for item in cart_items:
+		<%
+			#it = hmod.Item.objects.get(id=item)
+		%>
+		<div class="item_div">
+			<div class="text">
+				<div id="name">${ item[0] }</div></br>
+			</div>
+			<div>
+				<a id="del" href="/homepage/shoppingcart.delete_item/${ item[0].id }" class="btn-xs btn btn-primary">Delete</a>
+			</div>
+		</div>
+	%endfor
+% if cart_item_size != 0 or cart_product_size != 0:
+	<div>
+		<a href="/homepage/checkout/${ user.id }" class="btn btn-warning text-right">Checkout</a>
+	</div>
+% else:
+	<h3>Your shopping cart is empty! Take a look at some of our products and find a little something that you like.</h3>
+	<a href="/homepage/catalog/" class="btn btn-primary">Go to Catalog</a>
+% endif
+
+
+</%block>

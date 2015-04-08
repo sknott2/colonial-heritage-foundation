@@ -1,0 +1,80 @@
+<%inherit file="base.htm" />
+<%
+    import homepage.models as hmod
+%>
+
+<%block name="content">
+	<%
+		x = 0
+	%>
+	% if len(latelist) > 0:
+		<div class="titlebar">
+			<h4>Items that are between 0 and 30 days late</h4>
+		</div>
+		<table class="table table-striped">
+			% for late in latelist:
+				<%
+					x = x + 1
+				%>
+				<tr>
+					<td>${late.name}</td>
+					<td>${userlist[x]}
+				</tr>
+			% endfor
+		</table>
+	% endif
+	
+	% if len(latethirtylist) > 0:
+	<div class="titlebar">
+		<h4>Items that are between 30 and 60 days late</h4>
+	</div>
+	<table class="table table-striped">
+		% for late in latethirtylist:
+			<%
+				x = x + 1
+			%>
+			<tr>
+				<td>${late.name}</td>
+				<td>${userlist[x]}
+			</tr>
+		% endfor
+	</table>
+	% endif
+
+	% if len(latesixtylist) > 0:
+		<div class="titlebar">
+			<h4>Items that are between 60 and 90 days late</h4>
+		</div>
+		<table class="table table-striped">
+			% for late in latesixtylist:
+				<%
+					x = x + 1
+				%>
+				<tr>
+					<td>${late.name}</td>
+					<td>${userlist[x]}
+				</tr>
+			% endfor
+		</table>
+	% endif
+
+	% if len(lateninetylist) > 0:
+	<div class="titlebar">
+		<h4>Items that are more than 90 days late</h4>
+	</div>
+	<table class="table table-striped">
+		% for late in lateninetylist:
+			<%
+				x = x + 1
+			%>
+			<tr>
+				<td>${late.name}</td>
+				<td>${userlist[x]}
+			</tr>
+		% endfor
+	</table>
+	% endif
+
+	</br></br>
+	<a href="/homepage/rentals.email_late/" class="btn btn-primary">Email Notices</a>
+</%block>

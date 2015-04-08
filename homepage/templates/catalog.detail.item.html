@@ -1,0 +1,20 @@
+<%inherit file="base.htm" />
+
+<%block name="content">
+	<div>
+		<h2>${item.name}</h2>
+		<div class="img_box">
+			<img id="detail_img" src="${ STATIC_URL }homepage/media/product_images/${item.name}.jpg" />
+		</div>
+		<div class="description_box"
+			<p>
+				${item.description}
+			</p>
+			<p>
+				Price: $${item.standard_rental_price} per week of use
+			</p>
+			
+			<button data-pid="${ item.id }" id="add_cart" class="add_button btn btn-xs btn-warning">Add to Cart</button>
+		</div>
+	</div>
+</%block>

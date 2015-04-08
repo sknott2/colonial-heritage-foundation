@@ -1,0 +1,11 @@
+<%inherit file="base_ajax.htm"/>
+
+<%block name="content">
+	<div>
+		What damages are there?
+		<form method="POST" action='/homepage/rentals.return_damageFee/${ user.id }/${ agent.id }/${ return_fee.id }/${ rental.id }/${ item.id }/'>
+			${ form.as_p() }
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</%block>

@@ -1,0 +1,113 @@
+## this is the skeleton of all pages on in this app - it defines the basic html tags
+
+## set up a StaticRenderer object to enable the CSS/JS automatic inclusion magic.
+<%! from django_mako_plus.controller import static_files %>
+<%  static_renderer = static_files.StaticRenderer(self) %>
+
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>s
+    <title>Colonial Heritage Foundation</title>
+    <meta name="description" content="The Colonial Heritage Foundation is an organization based in Provo, UT that focuses on preserving the heritage of our American forebearers.">
+
+    ## SEO meta tags for Facebook Open Graph
+    <meta property="og:title" content="Colonial Heritage Foundation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://colonialheritagefoundation.co">
+    <meta property="og:description" content="Check out the awesome events going on at the Colonial Heritage Foundation or stop by to rent colonial era props."/>
+
+    ## SEO meta tags for Twitter cards
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://colonialheritagefoundation.co">
+    <meta name="twitter:title" content="Colonial Heritage Foundation">
+    <meta name="twitter:description" content="Check out the awesome events going on at the Colonial Heritage Foundation or stop by to rent colonial era props.">
+    
+    ## add any site-wide scripts or CSS here; for example, jquery:
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="${ STATIC_URL }homepage/media/jquery.loadmodal.js"></script>
+    <script src="${ STATIC_URL }homepage/media/jquery.form.js"></script>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+
+
+    ## render the css with the same name as this page
+    ${ static_renderer.get_template_css(request, context)  }
+  
+  </head>
+  <body>
+    <div>
+      <header>
+        <%block name="header">
+            <div class="col-md-1">
+              <img class="navbar_img" src="/static/homepage/media/silouette.png/" class="nav navbar-nav navbar-left">
+            </div>
+            <div id="navbar-div" class="col-md-9 container-fluid">
+                <h3 class="white_text">Colonial Heritage Foundation</h3>
+                <h4 class="gray_text">Bringing History to Life</h4>
+            </div>
+            <div class="col-md-2"
+              <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-item">
+                  % if request.user.is_authenticated():
+                    <a href="/homepage/login.log_out/" class="btn btn-warning login_btn">Log Out</a>
+                  % else:
+                    <a href="/homepage/users.create/" class="btn btn-warning login_btn">Create Profile</a>
+                    <!--<a href="/homepage/login/" class="btn btn-primary login_btn">Log In</a>-->
+                    <button class="btn btn-primary login_btn" id="login">Log In</button>
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Log In</h4>
+                          </div>
+                          <div class="modal-body">
+                          </div>
+                          <div class="modal-footer">
+                            <a href="/account/password_reset/" class="btn btn-default">Forgot password?</a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  % endif
+                </li>
+              </ul
+            </div>
+
+            <!-----------------------------------------------shopping cart----------------------------------------->
+            <button class="btn btn-primary" id="shopping_cart">Shopping Cart</button>
+
+        </%block>
+      </header>
+    </div>
+    <div class="container">
+      <div class="col-md-2" id="left_menu">
+        <%block name="left_side">
+          This is the left side menu bar
+        </%block>
+      </div>
+
+      <div class="col-md-10" id="center_content">
+        <%block name="content">
+          Site content goes here in sub-templates.
+        </%block> 
+      </div>
+    </div> 
+  
+    <div>
+      <footer>
+        <%block name="footer">
+          <h6 class="copyright">&copy Colonial Heritage Foundation</h6>
+        </%block> 
+      </footer>
+    </div>
+    ## render the JS with the same name as this page
+    ${ static_renderer.get_template_js(request, context)  }
+    
+  </body>
+</html>

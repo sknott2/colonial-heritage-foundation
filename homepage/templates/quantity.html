@@ -1,0 +1,12 @@
+<%inherit file="base_ajax.htm"/>
+
+<%block name="content">
+
+		<div id="quantity_container" align="center">
+			<form id="quantityform" method="POST" action="/shoppingcart.add/${request.urlparams[0]}">
+				${ form }
+				<div align="center"><input id="cart" type="submit" class="btn btn-primary"/></div>
+			</form>
+		</div>
+	
+</%block>

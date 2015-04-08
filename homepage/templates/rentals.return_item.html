@@ -1,0 +1,22 @@
+<%inherit file="base.htm"/>
+
+<%block name ="content">
+	<div class="col-md-6">
+		<table class="table table-striped">
+			<tr>
+				<td>Item Name</td>
+				<td>Item Rental Price</td>
+				<td>Return</td>
+			</tr>
+			%for item in loaned_list:
+				<tr>
+					<td>${ item.name }</td>
+					<td>${ item.standard_rental_price }</td>
+					<td>
+						<a class="btn-xs btn-primary" href="/homepage/rentals.return_rental/${ user.id }/${ agent.id }/${ item.id }/">Return Item</a>
+					</td>
+				</tr>
+			%endfor
+		</table>
+	</div>
+</%block>

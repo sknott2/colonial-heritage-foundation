@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"search",
+				"search_results"
+			],
+			[
+				"sear",
+				"search_results"
+			],
+			[
+				"overdue",
+				"overdue_items"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"confir",
+				"confirm_password"
+			],
+			[
+				"Pa",
+				"PasswordInput"
+			],
+			[
+				"sta",
+				"standard_rental_price"
+			],
+			[
+				"address",
+				"address_1"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"HttpResponse",
+				"HttpResponseRedirect"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"Vehi",
+				"Vehicle"
+			],
+			[
+				"first",
+				"firstname"
+			],
+			[
+				"Orga",
+				"OrganizationID"
+			],
+			[
+				"Legal",
+				"LegalEntityID"
+			],
+			[
+				"Lega",
+				"LegalEntityID"
+			],
+			[
+				"Organ",
+				"Organizations"
+			],
+			[
+				"LegalEnt",
+				"LegalEntityID"
+			],
+			[
+				"RentalRe",
+				"RentalReturnID"
+			],
+			[
+				"Photo",
+				"PhotographerID"
+			],
+			[
+				"Rentable",
+				"RentableItemID"
+			],
+			[
+				"Sched",
+				"ScheduledFor"
+			],
+			[
+				"Schedul",
+				"ScheduledBy"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "homepage/models.py",
+			"settings":
+			{
+				"buffer_size": 6707,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "init_db.py",
+			"settings":
+			{
+				"buffer_size": 15630,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "homepage/views/rentals.py",
+			"settings":
+			{
+				"buffer_size": 11597,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "homepage/templates/base.htm",
+			"settings":
+			{
+				"buffer_size": 5139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "homepage/templates/rentals.return_users.html",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "homepage/templates/rentals.return_damageFee.html",
+			"settings":
+			{
+				"buffer_size": 345,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chf/urls.py",
+			"settings":
+			{
+				"buffer_size": 1144,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Dennis/Sites/node/ldsconf/app.json",
+		"/Users/Dennis/Developer/Python/chf/chf/settings.py",
+		"/Users/Dennis/Developer/Python/chf/homepage/media/jquery.form.js",
+		"/Users/Dennis/Developer/Python/chf/homepage/media/jquery.loadmodal.js",
+		"/Users/Dennis/Developer/Python/chf/homepage/templates/index.html",
+		"/Users/Dennis/Downloads/init_db.py",
+		"/Users/Dennis/Downloads/models (1).py",
+		"/Users/Dennis/Developer/Python/chfoundation/chfoundation/settings.py",
+		"/Users/Dennis/Developer/Python/chf/homepage/models.py",
+		"/Users/Dennis/Developer/Python/chf/init_db.py",
+		"/Users/Dennis/Developer/Python/chf/chf/urls.py",
+		"/Users/Dennis/Developer/Python/chfoundation/ldap.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/ldap.py",
+		"/Users/Dennis/Sites/node/react-tweets/views/layouts/main.handlebars",
+		"/Users/Dennis/Sites/node/react-tweets/config.js",
+		"/Users/Dennis/Sites/node/~rt/config.js",
+		"/Users/Dennis/Sites/node/~rt/server.js",
+		"/Users/Dennis/Sites/node/react-tweets/components/Tweets.react.js",
+		"/Users/Dennis/Sites/node/react-tweets/views/home.handlebars",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/store.cart.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/account.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/items.py",
+		"/Users/Dennis/Developer/Python/chfoundation/init_db.py",
+		"/Users/Dennis/Developer/Python/chfoundation/get_overdue_items.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/models.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/store.receipt.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/store.cart.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/store.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/batch.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/store.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/store.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/styles/store.css",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/store.product_details.html",
+		"/Users/Dennis/Sites/yaus/scripts/base.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/items.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/styles/base.css",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/about.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/base.htm",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/base.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/account.create.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/users.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/jquery.loadmodal.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/account.loginform.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/base_ajax.htm",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/account.loginform.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/login.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/scripts/login.js",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/users.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/admin.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/migrations/0006_auto_20150306_1851.py",
+		"/Users/Dennis/Developer/Python/chfoundation/manage.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/items.edit.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/account.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/events.edit.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/events.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/events.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/users.edit.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/venues.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/venues.edit.html",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/venues.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/login.py",
+		"/Users/Dennis/Developer/Python/chfoundation/chfoundation/urls.py",
+		"/Users/Dennis/Developer/Python/island/homepage/models.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/views/index.py",
+		"/Users/Dennis/Developer/Python/test_dmp/homepage/views/index.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/__init__.py",
+		"/Users/Dennis/Developer/Python/chfoundation/homepage/templates/index.html",
+		"/Users/Dennis/Developer/Python/island/forum/models.py",
+		"/Users/Dennis/Developer/Python/chfoundation/~homepage/__init__.py",
+		"/Users/Dennis/Developer/Python/chfoundation/~homepage/views/__init__.py",
+		"/Users/Dennis/Developer/Python/test_dmp/homepage/models.py",
+		"/Users/Dennis/Developer/Python/test_dmp/test_dmp/urls.py",
+		"/Users/Dennis/Developer/Python/models.py",
+		"/Users/Dennis/Developer/Python/test_dmp/homepage/views/test.py",
+		"/Users/Dennis/Developer/Python/island/theCproject/settings.py",
+		"/Users/Dennis/Developer/Python/test_dmp/test_dmp/wsgi.py",
+		"/Users/Dennis/Developer/Python/sci2public/scriptures/models.py",
+		"/Users/Dennis/Developer/Python/test_dmp/test_dmp/settings.py",
+		"/Users/Dennis/Developer/Python/sci2public/manage.py",
+		"/Users/Dennis/Developer/Python/test_dmp/homepage/templates/about.html",
+		"/Users/Dennis/Developer/Python/test_dmp/homepage/__init__.py",
+		"/Users/Dennis/Sites/angular/ng-workshop/firebase.js",
+		"/Users/Dennis/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Dennis/Sites/angular/ng-workshop/amazing-filter.js",
+		"/Users/Dennis/Sites/angular/ng-workshop/check-human.js",
+		"/Users/Dennis/Sites/angular/ng-workshop/check-human.html",
+		"/Users/Dennis/Documents/index.sql",
+		"/Users/Dennis/Documents/subqueries.sql",
+		"/Users/Dennis/Documents/CHF.sql",
+		"/Users/Dennis/Documents/NewDawn_4.sql",
+		"/Users/Dennis/Desktop/list",
+		"/Users/Dennis/Documents/provolone_mood",
+		"/Users/Dennis/Desktop/download.sh",
+		"/Applications/XAMPP/xamppfiles/htdocs/payments/application/config/config.php",
+		"/Volumes/BOOTCAMP/Users/Dennis/Documents/counseling_appointment_database_same_to_same.vsdx",
+		"/Users/Dennis/Sites/node/ressipy/node_modules/express/index.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"settings",
+			"colonial",
+			"MY_USER",
+			"Rented",
+			"Area",
+			"User",
+			"organization",
+			"MY_USER",
+			"hmod.User",
+			"MY_USER",
+			"MY_",
+			"Event",
+			"event",
+			"event.",
+			"EventEditForm",
+			"hmod.Event",
+			"hmod.Venue",
+			"events",
+			"event",
+			"MY_USER",
+			"users",
+			"OneToOne",
+			"into",
+			"time"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"User"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "homepage/models.py",
+					"settings":
+					{
+						"buffer_size": 6707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "init_db.py",
+					"settings":
+					{
+						"buffer_size": 15630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15630,
+								15630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "homepage/views/rentals.py",
+					"settings":
+					{
+						"buffer_size": 11597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "homepage/templates/base.htm",
+					"settings":
+					{
+						"buffer_size": 5139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1014,
+								1014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "homepage/templates/rentals.return_users.html",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "homepage/templates/rentals.return_damageFee.html",
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chf/urls.py",
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"homepage/templates/base.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true
+}

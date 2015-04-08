@@ -1,0 +1,27 @@
+<%inherit file="base.htm"/>
+
+<%block name="content">
+
+
+        <div class="row">
+            %for Event in events:
+            <div class="col-sm-4">
+                <div class="thumbnail product" id="thumbnail">
+                    <div class="item_container text-center">
+                        <img src="${ STATIC_URL }homepage/media/events/${ Event.id }.jpg" style="width: 150px; height: 150px;" alt="Image not available"/>
+                        <div class="caption" style="text-align:center;">
+                            <h3 class="name">${ Event.event_name }</h3>
+                            <p class="date"> ${ Event.start_date.strftime('%x') } to ${ Event.end_date.strftime('%x') }</p>
+
+                            <p>Venue name: ${ Event.venue.name } </p>
+                            <p>Venue address: ${ Event.venue.address.address_1 }, ${ Event.venue.address.city } ${ Event.venue.address.state } </p>
+                            <p><a href="/homepage/areas/${ Event.id }" class="btn btn-sm btn-info">View Areas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            %endfor
+        </div>
+
+
+</%block>

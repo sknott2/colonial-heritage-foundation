@@ -1,0 +1,24 @@
+<%inherit file="base.htm"/>
+
+<%block name="content">
+
+
+        <div class="row">
+            %for Area in areas:
+            <div class="col-sm-4">
+                <div class="thumbnail product" id="thumbnail">
+                    <div class="item_container text-center">
+                        <div class="caption" style="text-align:center;">
+                            <h3 class="name">${ Area.name }</h3>
+                            <p class="description"> ${ Area.description }</p>
+                            <p>Place #: ${ Area.place_number } </p>
+                            <p><a href="/homepage/artisian/${ Area.id }" class="btn btn-sm btn-info">Products at Area</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            %endfor
+        </div>
+
+
+</%block>

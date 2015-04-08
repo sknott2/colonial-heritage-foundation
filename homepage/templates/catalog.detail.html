@@ -1,0 +1,20 @@
+<%inherit file="base.htm" />
+
+<%block name="content">
+	<div>
+		<h2>${product.name}</h2>
+		<div class="img_box">
+			<img id="detail_img" src="${ STATIC_URL }homepage/media/product_images/${product.name}.jpg" />
+		</div>
+		<div class="description_box"
+			<p>
+				${product.description}
+			</p>
+			<p>
+				Price: $${product.current_price}
+			</p>
+			
+			<button data-pid="${ product.id }" id="add_cart" class="add_button btn btn-xs btn-warning">Add to Cart</button>
+		</div>
+	</div>
+</%block>
